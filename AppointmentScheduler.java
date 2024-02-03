@@ -5,7 +5,7 @@
 import java.util.Scanner;
 public class AppointmentScheduler {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in).useDelimiter("\n");
 
         // Enter patient details
         System.out.println("\n"); 
