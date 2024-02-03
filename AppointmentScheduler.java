@@ -44,9 +44,9 @@ public class AppointmentScheduler {
         String schedulingDate = scanner.next();
         System.out.print("Time: ");
         String schedulingTime = scanner.next();
-        System.out.print("Name of Surgery: ");  //error here - When running it tends to skip the next line when adding a space. Ex: "Heart Transplant"
+        System.out.print("Name of Surgery: ");  
         String schedulingName = scanner.next();
-        System.out.print("Surgical Site: ");    //error here - When running it tends to skip the next line when adding a space. Ex: "Upper Left Quadrant"
+        System.out.print("Surgical Site: ");    
         String schedulingSite = scanner.next();
         System.out.print("Operating Room Number: ");
         int operatingRoomNumber = scanner.nextInt();
