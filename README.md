@@ -16,9 +16,9 @@ Scheduling Process:
 
 -   Collect Doctor Information
 
--   Establish Surgery Specifications
+-   Establish Scheduling Information
 
--   Print out Appointment Information
+-   Output Appointment Information
 
 Pseudo Code:
 
@@ -28,4 +28,6 @@ Pseudo Code:
 
 -   class Scheduling (date, time, nameOfSurgery, surgicalSite, operatingRoomNumber) 
 
--   class Surgery (patient, doctor, scheduling)
+-   class Surgery (patient, doctor, scheduling) 
+
+-   class AppointmentScheduler
